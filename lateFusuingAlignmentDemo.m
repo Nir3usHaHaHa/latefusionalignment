@@ -2,12 +2,12 @@ clear
 clc
 warning off;
 
-path = 'E:\work2015\';
+path = '.\';
 addpath(genpath(path));
 
 %%addpath('C:\Program Files\Mosek\8\toolbox\r2014a');
 
-dataName = 'flower17'; %%% flower17; flower102; proteinFold,caltech101_mit,UCI_DIGIT,ccv
+dataName = 'proteinFold'; %%% flower17; flower102; proteinFold,caltech101_mit,UCI_DIGIT,ccv
 %% %% washington; wisconsin; texas; cornell
 %% caltech101_nTrain5_48
 %% proteinFold
